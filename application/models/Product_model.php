@@ -13,7 +13,7 @@ class Product_model extends CI_Model
 
     function InsertProduct($data)
     {
-        $this->db->insert('tproducts', $data);
+        $this->db->insert('     ', $data);
 		return $this->db->affected_rows();
 		//var_dump($data);
 	}
